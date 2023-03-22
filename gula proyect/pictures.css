@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.line{
+    background: rgb(133, 133, 36);
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.gallery img{
+    width: 100%;
+    
+}
