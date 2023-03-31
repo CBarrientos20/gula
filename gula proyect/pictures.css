@@ -3,18 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-.line{
-    background: rgb(133, 133, 36);
-    height: 5px;
-    width: 100%;
-    display: block;
-}
 
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
 }
-.gallery img{
-    width: 100%;
+.container{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    cursor: pointer;
     
 }
+
+.container:hover img{
+    transform: scale(1.1);
+}
+.gallery{
+    width: 350px;
+    height: 400px;
+}
+.gallery img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    transition: .5s ease;
+}
+
+
+
+
