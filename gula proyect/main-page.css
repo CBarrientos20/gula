@@ -4,26 +4,117 @@
     box-sizing: border-box;
 }
 
-.container{
+main.container{
     background-color: rgb(0, 0, 0);
     display: flex;
     align-items: flex-end;
     justify-content: center;
     height: 100vh;
+    flex: 1;
 }
 
-.container a{
-    color: black;
+div.gallery{
+    height: 100vh;
+    flex: 1;
+    border: 2px solid white;
+    border-radius: 20px;
+   
+}
+section{
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+section a{
+    color: rgb(133, 133, 36);
     text-decoration: none;
     font-size: 20px;
     width: 20%;
     text-align: center;
     display: block;
     padding: 8px 0;
-    background-color: rgb(133, 133, 36);
+    background-color: rgb(0, 0, 0);
     transition: all .5s ease-in-out;
 }
 
 .container a:hover {
     opacity: .6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(133, 133, 36);
+    min-height: 100vh;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+
+    
+  }
+  
+  header {
+    background-color: rgb(133, 133, 36);
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 8px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+    
+   
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 100%;
+     border: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+li img{
+    width: 100px;
+    height: 100px;
+    display: flexbox;
+    border-radius: 20px;
+}  
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: xx-large;
+    margin-right: 20px;
+    flex: 1;
 }
