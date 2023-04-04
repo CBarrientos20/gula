@@ -1,75 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="main-page.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Main Page</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="main-page.css" />
- 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <input type="radio" name="Photos" id="check1" checked />
+    <input type="radio" name="Photos" id="check2" />
+    <input type="radio" name="Photos" id="check3" />
+    <input type="radio" name="Photos" id="check4" />
+    <input type="radio" name="Photos" id="check5" />
 
+    <div class="container">
+      <div class="top-content">
+        <label for="check1" class="title">Gula</label>
+        <label for="check2">
+          <img src="img-test/menu1.jpg" alt="" />
+        </label>
+        <label for="check3">
+          <img src="img-test/menu2.jpg" alt="" />
+        </label>
+        <label for="check4">
+          <img src="img-test/menu3.jpg" alt="" />
+        </label>
+        <label for="check5">
+          <img src="img-test/menu4.jpg" alt="" />
+        </label>
+      </div>
 
-  <header>
-    <h1>Gula</h1>
-    <nav>
-      <ul>
-        <li>
-          <a href="pictures.html"><img src="img-test/menu1.jpg" alt="soup" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="img-test/menu2.jpg" alt="fruits" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="img-test/menu3.jpg" alt="soussage" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="img-test/menu4.jpg" alt="sandwich" /></a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="container">
-    <h2></h2>
-    <div class="gallery">
-      <img src="img-test/menu1.jpg" alt="Imagen 1" />
-      <img src="img-test/menu2.jpg" alt="Imagen 2" />
-      <img src="img-test/menu3.jpg" alt="Imagen 3" />
-      <img src="img-test/menu4.jpg" alt="Imagen 4" />
-      <!-- Aquí se agregan más imágenes de la galería -->
-
-      <!-- Aquí se agregarán las imágenes de la galería -->
+      <div class="photo-gallery">
+        <div class="pic dinner">
+          <img src="img-menu/foto1.jpg" alt="" />
+        </div>
+        <div class="pic drinks">
+          <img src="img-menu/foto10.jpg" alt="" />
+        </div>
+        <div class="pic launch">
+          <img src="img-menu/foto3.jpg" alt="" />
+        </div>
+        <div class="pic breakfast">
+          <img src="img-menu/foto13.jpg" alt="" />
+        </div>
+        <div class="pic dinner">
+          <img src="img-menu/foto14.jpg" alt="" />
+        </div>
+        <div class="pic drinks">
+          <img src="img-menu/foto9.jpg" alt="" />
+        </div>
+        <div class="pic launch">
+          <img src="img-menu/foto2.jpg" alt="" />
+        </div>
+        <div class="pic breakfast">
+          <img src="img-menu/foto8.jpg" alt="" />
+        </div>
+        <div class="pic dinner">
+          <img src="img-menu/foto4.jpg" alt="" />
+        </div>
+        <div class="pic drinks">
+          <img src="img-menu/foto15.jpg" alt="" />
+        </div>
+        <div class="pic launch">
+          <img src="img-menu/foto5.jpg" alt="" />
+        </div>
+        <div class="pic breakfast">
+          <img src="img-menu/foto17.jpg" alt="" />
+        </div>
+        <div class="pic dinner">
+          <img src="img-menu/foto18.jpg" alt="" />
+        </div>
+        <div class="pic drinks">
+          <img src="img-menu/foto11.jpg" alt="" />
+        </div>
+        <div class="pic launch">
+          <img src="img-menu/foto16.jpg" alt="" />
+        </div>
+        <div class="pic breakfast">
+          <img src="img-menu/foto7.jpg" alt="" />
+        </div>
+      </div>
     </div>
-
-
-    <section>
-      <a href="#">
-        <i class="fa-solid fa-house"></i>
-      </a>
-      <a href="#">
-        <i class="fa-solid fa-magnifying-glass"></i>
-      </a>
-      <a href="#">
-        <i class="fa-solid fa-plus"></i>
-      </a>
-      <a href="#">
-        <i class="fa-solid fa-message"></i>
-      </a>
-      <a href="#">
-        <i class="fa-solid fa-user-large"></i>
-      </a>
-    </section>
-  </main>
-</body>
-
+    <div>
+      <section>
+        <a href="#">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-plus"></i>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-message"></i>
+        </a>
+        <a href="#">
+          <i class="fa-solid fa-user-large"></i>
+        </a>
+      </section>
+    </div>
+  </body>
 </html>
