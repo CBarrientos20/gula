@@ -116,6 +116,7 @@ label:hover{
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
    flex: content;
+   align-items: center;
 }
 .pic{
  position: relative;

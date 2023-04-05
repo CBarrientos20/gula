@@ -4,6 +4,9 @@ body{
     background-color: black;
 }
 img{
-    display: flex;
-    justify-content: center;
+    margin: auto;
+    width: 600px;
+    height: 900px;
+    display: block;
+    padding: 20px 30px;
 }
