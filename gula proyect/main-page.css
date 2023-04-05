@@ -120,6 +120,7 @@ label:hover{
  height: 230px;
  border-radius: 10px;
  box-shadow: 3px 3px 5px rgb(133, 133, 36);
+ cursor: pointer;
 }
 .pic img{
     width: 100%;
@@ -170,15 +171,15 @@ label:hover{
     position: relative;
     transition: .5s;
 }
-#check2:checked ~ .container .photo-gallery .drinks{
+#check2:checked ~ .container .photo-gallery .pic.dinner{
     transform: scale(1);
     opacity: 1;
     position: relative;
     transition: .5s;
 }
-#check3:checked ~ .container .photo-gallery .launch,
+#check3:checked ~ .container .photo-gallery pic.drinks,
 #check4:checked ~ .container .photo-gallery .breakfast,
-#check4:checked ~ .container .photo-gallery .dinner{
+#check4:checked ~ .container .photo-gallery .launch{
 opacity: 0;
 transform: scale(0);
 position: absolute;
