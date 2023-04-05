@@ -109,11 +109,13 @@ label:hover{
 .photo-gallery{
     width: 90%;
     height: 75%;
-    margin: 0 5px 0 5px;
+    margin: 0;
+    padding: 20px 30px;
     /*margin: auto;*/
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
+   flex: content;
 }
 .pic{
  position: relative;
